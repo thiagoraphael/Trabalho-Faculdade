@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #120329;
+    color: #e4eef7;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    min-height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.menu-texto{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.menu-texto:hover{
+    border-bottom: 2px solid #ba8deb;
+}
+
+#carrinho{
+    height: 20px;
+    margin-left: 10px;
+    
+}
+
+#carrinho:hover{
+    opacity: 70%;
+}
+
+#pesquisa{
+    height: 50px;
+    width: 500px;
+    border: 1px solid #ba8deb;
+    border-radius: 5px;
+    background-color: #ece0ff;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+#pesquisa::placeholder{
+    color: #120329;
+    padding-left: 5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+#pesquisa:focus{
+    outline: 3px solid transparent;
+    padding-left: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.conteudo{
+    background-color: #0b0116;
+    border-top: 1px solid #ba8deb;
+    color: #ffffff;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img{
+    height: 600px;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 60px 60px;
+    justify-content: center;
+}
+
+.produto{
+    width: 200px;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+    gap: 30px ;
+}
+
+.produto:hover{
+    opacity: 50%;
+}
+
+.nome{
+    font-size: 8pt;
+}
+.preco{
+    font-weight: 600;
+}
+.parcelamento{
+    font-size: 8pt;
+    color: #ba8deb;
+}
+.descricao{
+    font-size: 6pt;
+}
+
+.img-produto{
+    height: 200px;
+}
